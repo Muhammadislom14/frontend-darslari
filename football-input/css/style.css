@@ -1,0 +1,109 @@
+/* GLOBAL */
+:root {
+    --light-green: #76c893;
+    --light-red: #e41515;
+    --dark-red: #d00000;
+    --black: #000;
+    --alice-blue: #edf6f9;
+}
+.red {
+    color: var(--dark-red);
+}
+/* IMAGES */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+/* FORM-SECTION */
+.input-section {
+    background-color: var(--light-green);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+    width: 50%;
+}
+.input-section:hover {
+    box-shadow: 0px 0px 25px #000;
+    transition: 0.3s;
+}
+#input-age__label {
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin: auto;
+    padding: 15px;
+    width: 80%;
+}
+#input-name {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin:auto;
+    padding: 5px 0;
+    padding-left: 5px;
+    width: 80%;
+}
+#input-name:focus {
+    background-color: var(--alice-blue);
+    border-color: var(--dark-red);
+    box-shadow: 0px 0px 10px var(--alice-blue);
+    outline: none;
+}
+#input-age {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin:auto;
+    padding: 5px 0;
+    padding-left: 5px;
+    width: 80%;
+}
+#input-age:focus {
+    background-color: var(--alice-blue);
+    border-color: var(--dark-red);
+    box-shadow: 0px 0px 10px var(--alice-blue);
+    outline: none;
+}
+
+/* BUTTONS */
+.btn {
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 13px;
+}
+.btn-tomato {
+    background-color: var(--light-red);
+    border: 2px solid var(--dark-red);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    width: 80%;
+}
+
+.btn-tomato:hover {
+    background-color: var(--dark-red);
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+/* AGE */
+.true {
+    color: green;
+}
+.false {
+    color: red;
+}
